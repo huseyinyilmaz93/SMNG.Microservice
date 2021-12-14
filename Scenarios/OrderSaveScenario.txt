@@ -1,0 +1,17 @@
+OrderManagement -> 
+API Create 
+	-> Save Header 
+	-> Save Order Lines
+	-> Trigger stockOrderCreate
+			
+OrderIntegrationService (IStockCreateHandler - Consumer) -> 
+	-> Save Order
+	-> Trigger createOrderLineEvent (for every line)
+
+OrderIntegrationService (ICreateOrderLineHandler)
+	-> Save order line
+	-> Trigger stockReducementEvent
+	
+StockManagementService (IStockReducementHandler)
+	-> Reduce Stock
+	
