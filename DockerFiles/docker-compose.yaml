@@ -1,0 +1,17 @@
+version: '3.4'
+
+services: 
+  my-redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+    environment:
+      - REDIS_REPLICATION_MODE=master
+                 
+  rabbitmq:
+    hostname: ${RABBIT_HOST}
+    build:
+      dockerfile: "rabbitmq-dockerfile"
+    ports:
+      - "15671:15671"
+      - "15672:15672"
