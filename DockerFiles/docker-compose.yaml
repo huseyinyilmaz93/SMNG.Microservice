@@ -1,4 +1,4 @@
-version: '3.4'
+version: '3.8'
 
 services: 
   my-redis:
@@ -7,6 +7,7 @@ services:
       - "6379:6379"
     environment:
       - REDIS_REPLICATION_MODE=master
+    restart: "always"
                  
   rabbitmq:
     hostname: ${RABBIT_HOST}
@@ -15,3 +16,13 @@ services:
     ports:
       - "15671:15671"
       - "15672:15672"
+    restart: "always"
+      
+  mssql:
+    image: "mcr.microsoft.com/mssql/server:latest"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=${MSSQL_PASSWORD}
+    ports: 
+      - "1433:1433"
+    restart: "always"
