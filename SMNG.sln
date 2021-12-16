@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMNG.Models", "Libraries\SMNG.Models\SMNG.Models.csproj", "{1D0DDAA2-30FE-4483-B002-D51B06B30DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D0DDAA2-30FE-4483-B002-D51B06B30DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0DDAA2-30FE-4483-B002-D51B06B30DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0DDAA2-30FE-4483-B002-D51B06B30DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0DDAA2-30FE-4483-B002-D51B06B30DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D5D8849-FE50-4168-82FB-8DD62B732E97}
+	EndGlobalSection
+EndGlobal
