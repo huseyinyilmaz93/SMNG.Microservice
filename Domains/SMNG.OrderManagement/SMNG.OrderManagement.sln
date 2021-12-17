@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMNG.OrderManagement", "SMNG.OrderManagement\SMNG.OrderManagement.csproj", "{210B5868-1911-47C6-8C0C-98B1ED4046C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMNG.Models", "..\..\Libraries\SMNG.Models\SMNG.Models.csproj", "{FD950A88-BBE4-44E0-B8FB-8744C02570AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{210B5868-1911-47C6-8C0C-98B1ED4046C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210B5868-1911-47C6-8C0C-98B1ED4046C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210B5868-1911-47C6-8C0C-98B1ED4046C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210B5868-1911-47C6-8C0C-98B1ED4046C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD950A88-BBE4-44E0-B8FB-8744C02570AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD950A88-BBE4-44E0-B8FB-8744C02570AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD950A88-BBE4-44E0-B8FB-8744C02570AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD950A88-BBE4-44E0-B8FB-8744C02570AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A49C8278-423E-43D3-98F5-9D0D249BFA31}
+	EndGlobalSection
+EndGlobal
